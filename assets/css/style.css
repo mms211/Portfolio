@@ -1,0 +1,64 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+body {
+    margin: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif
+}
+
+/* Header Formatting */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    width: 100%;
+    border-bottom: 2px solid #cccccc;
+}
+  
+li a{
+    float: right;
+    display: block;
+    color: #777777;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    height: 50px;
+    line-height: 50px;
+}
+
+.name {
+    float: left;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    text-align: center;
+    padding: 14px 16px;
+    display: block;
+    height: 50px;
+    vertical-align: middle;
+    margin-left: 230px;
+}
+
+.contactlink {
+    margin-right: 230px;
+}
+ 
+/* main content box */
+
+.box {
+    width: 960px;
+    border: 2px solid #dddddd;
+    padding: 20 px;
+    background-color: #ffffff;
+    color: #777777;
+    margin: auto;
+    margin-top: 50px; 
+}
+
+#photo {
+    width: 200px;
+}
+
