@@ -9,43 +9,64 @@ body {
 
 /* Header Formatting */
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #ffffff;
-    width: 100%;
+nav {
+    background-color: white;
     border-bottom: 2px solid #cccccc;
-}
-  
-li a{
-    float: right;
-    display: block;
-    color: #777777;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    height: 50px;
-    line-height: 50px;
+    height: 80px;
 }
 
-.name {
-    float: left;
-    color: #ffffff;
-    background-color: #4aaaa5;
+nav::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    display: inline-block;
+}
+  
+li {
+    display: inline-block;
     text-align: center;
-    padding: 14px 16px;
-    display: block;
-    height: 50px;
-    vertical-align: middle;
-    margin-left: 230px;
+    padding: 15px;
+}
+
+a:link {
+    text-decoration: none;
+    color: #777777;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #777777;
 }
 
 .contactlink {
     margin-right: 230px;
+    border-left: 1px solid #dddddd;
 }
- 
+
+.portfoliolink {
+    border-left: 1px solid #dddddd;
+}
+
+.name {
+    float: left;
+    background-color: #4aaaa5;
+    margin-left: 230px;
+    height: 80px;
+}
+
+h1 {        
+    text-align: center;
+    color: #ffffff;
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
 /* main content box */
 
 .box {
@@ -58,7 +79,29 @@ li a{
     margin-top: 50px; 
 }
 
+/* index.html */
+
 #photo {
     width: 200px;
 }
 
+/* footer */
+
+.content {
+    min-height: calc(100vh);
+}
+
+.footer {
+    height: 50px;
+    margin-top: -50px;
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    width: 100%;
+}
+
+.copyright {
+    color: #777777;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 10px;
+}
